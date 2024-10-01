@@ -5,16 +5,16 @@
       "Application": "Pcbnew",
       "Version": "8.0.1"
     },
-    "CreationDate": "2024-08-29T21:22:59-03:00"
+    "CreationDate": "2024-09-12T19:59:52-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "monitoreo_solar",
-      "GUID": "6d6f6e69-746f-4726-956f-5f736f6c6172",
+      "Name": "monitor_solar_v2",
+      "GUID": "6d6f6e69-746f-4725-9f73-6f6c61725f76",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 50.05,
+      "X": 66.842,
       "Y": 45.05
     },
     "LayerNumber": 2,
@@ -27,52 +27,52 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 1.0
+      "MinLineWidth": 1.27
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "monitoreo_solar-F_Cu.gbr",
+      "Path": "monitor_solar_v2-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitoreo_solar-B_Cu.gbr",
+      "Path": "monitor_solar_v2-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitoreo_solar-F_Paste.gbr",
+      "Path": "monitor_solar_v2-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitoreo_solar-B_Paste.gbr",
+      "Path": "monitor_solar_v2-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitoreo_solar-F_Silkscreen.gbr",
+      "Path": "monitor_solar_v2-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitoreo_solar-B_Silkscreen.gbr",
+      "Path": "monitor_solar_v2-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "monitoreo_solar-F_Mask.gbr",
+      "Path": "monitor_solar_v2-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "monitoreo_solar-B_Mask.gbr",
+      "Path": "monitor_solar_v2-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "monitoreo_solar-Edge_Cuts.gbr",
+      "Path": "monitor_solar_v2-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

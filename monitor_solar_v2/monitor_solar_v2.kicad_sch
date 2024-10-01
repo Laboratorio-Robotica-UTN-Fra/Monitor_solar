@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "51bfdde5-5428-4bd6-badc-0ec3b16e1032")
+	(uuid "072cc20d-5bde-4a2b-847d-43a094e9a143")
 	(paper "A4")
 	(lib_symbols
 		(symbol "2024-08-13_23-58-24:X9C103S"
@@ -2465,72 +2465,72 @@
 		)
 	)
 	(junction
-		(at 74.93 116.84)
+		(at 96.52 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "108fdae5-347a-4b54-a205-265859cf721b")
 	)
 	(junction
-		(at 113.03 59.69)
+		(at 134.62 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1de7f7f1-699c-4c4a-a5b4-edf41cbe87a0")
 	)
 	(junction
-		(at 43.18 77.47)
+		(at 64.77 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1de9606e-bcfe-47a3-82d9-e742b49785eb")
 	)
 	(junction
-		(at 43.18 114.3)
+		(at 64.77 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c979dd1-1464-4377-9ce2-95a04aecda2f")
 	)
 	(junction
-		(at 73.66 39.37)
+		(at 95.25 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ec6765c-565e-4ea4-a3cb-bc9def605842")
 	)
 	(junction
-		(at 60.96 25.4)
+		(at 82.55 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "417e1be8-04ab-440d-885e-010f324126c8")
 	)
 	(junction
-		(at 73.66 74.93)
+		(at 95.25 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bee897e-5af1-4f7e-95f0-e088fc194b14")
 	)
 	(junction
-		(at 113.03 97.79)
+		(at 134.62 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab9a11e7-7778-4e8a-91d9-71a954b13d14")
 	)
 	(junction
-		(at 86.36 25.4)
+		(at 107.95 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f32eac73-f25a-4264-89e1-3c1064c7681c")
 	)
 	(junction
-		(at 54.61 124.46)
+		(at 76.2 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f66a6f4a-8bef-4f9c-9c9f-07733d4da7da")
 	)
 	(no_connect
-		(at 97.79 135.89)
+		(at 119.38 146.05)
 		(uuid "e3dbac3a-5f44-4c07-99e3-79c63fc71a15")
 	)
 	(wire
 		(pts
-			(xy 54.61 127) (xy 54.61 124.46)
+			(xy 76.2 137.16) (xy 76.2 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 30.48) (xy 113.03 30.48)
+			(xy 128.27 40.64) (xy 134.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 110.49) (xy 21.59 114.3)
+			(xy 43.18 120.65) (xy 43.18 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2560,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 39.37) (xy 73.66 39.37)
+			(xy 107.95 49.53) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 25.4) (xy 35.56 21.59)
+			(xy 57.15 35.56) (xy 57.15 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 49.53) (xy 35.56 45.72)
+			(xy 57.15 59.69) (xy 57.15 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 143.51 69.85)
+			(xy 172.72 80.01) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2600,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 25.4) (xy 35.56 25.4)
+			(xy 50.8 35.56) (xy 57.15 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2610,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 25.4) (xy 109.22 27.94)
+			(xy 130.81 35.56) (xy 130.81 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 137.16) (xy 179.07 137.16)
+			(xy 203.2 147.32) (xy 200.66 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 83.82) (xy 146.05 83.82)
+			(xy 158.75 93.98) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2640,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 59.69) (xy 113.03 59.69)
+			(xy 128.27 69.85) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2650,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 69.85) (xy 143.51 81.28)
+			(xy 165.1 80.01) (xy 165.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 39.37) (xy 73.66 41.91)
+			(xy 95.25 49.53) (xy 95.25 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 138.43) (xy 152.4 138.43)
+			(xy 170.18 148.59) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2680,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 91.44) (xy 21.59 95.25)
+			(xy 43.18 101.6) (xy 43.18 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2690,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 88.9) (xy 143.51 88.9)
+			(xy 167.64 99.06) (xy 165.1 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2700,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 22.86) (xy 60.96 25.4)
+			(xy 82.55 33.02) (xy 82.55 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 97.79) (xy 113.03 100.33)
+			(xy 134.62 107.95) (xy 134.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 137.16) (xy 179.07 138.43)
+			(xy 200.66 147.32) (xy 200.66 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2730,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 135.89) (xy 102.87 135.89)
+			(xy 119.38 146.05) (xy 124.46 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2740,7 +2740,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 43.18 116.84)
+			(xy 64.77 124.46) (xy 64.77 127)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 99.06 97.79)
+			(xy 115.57 107.95) (xy 120.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2760,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 137.16 86.36)
+			(xy 167.64 96.52) (xy 158.75 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2770,7 +2770,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 143.51 99.06)
+			(xy 165.1 99.06) (xy 165.1 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 99.06 59.69)
+			(xy 115.57 69.85) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 113.03 97.79)
+			(xy 134.62 104.14) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 113.03 97.79)
+			(xy 158.75 107.95) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 77.47) (xy 43.18 80.01)
+			(xy 64.77 87.63) (xy 64.77 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 27.94) (xy 35.56 31.75)
+			(xy 57.15 38.1) (xy 57.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2830,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 63.5) (xy 73.66 63.5)
+			(xy 73.66 73.66) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 133.35) (xy 152.4 133.35)
+			(xy 170.18 143.51) (xy 173.99 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 99.06) (xy 151.13 99.06)
+			(xy 165.1 109.22) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 109.22 36.83)
+			(xy 130.81 43.18) (xy 130.81 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +2870,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 74.93) (xy 76.2 74.93)
+			(xy 95.25 85.09) (xy 97.79 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2880,7 +2880,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 137.16 97.79)
+			(xy 158.75 96.52) (xy 158.75 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2890,7 +2890,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 33.02) (xy 109.22 33.02)
+			(xy 134.62 43.18) (xy 130.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 124.46) (xy 74.93 124.46)
+			(xy 88.9 134.62) (xy 96.52 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 81.28 25.4)
+			(xy 107.95 35.56) (xy 102.87 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 60.96) (xy 43.18 64.77)
+			(xy 64.77 71.12) (xy 64.77 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2930,7 +2930,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 77.47) (xy 55.88 77.47)
+			(xy 64.77 87.63) (xy 77.47 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2940,7 +2940,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 132.08) (xy 181.61 132.08)
+			(xy 200.66 142.24) (xy 203.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 124.46) (xy 74.93 116.84)
+			(xy 96.52 134.62) (xy 96.52 127)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 69.85) (xy 113.03 72.39)
+			(xy 134.62 80.01) (xy 134.62 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 86.36 29.21)
+			(xy 107.95 35.56) (xy 107.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 107.95) (xy 113.03 110.49)
+			(xy 134.62 118.11) (xy 134.62 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 39.37) (xy 60.96 36.83)
+			(xy 82.55 49.53) (xy 82.55 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 113.03 62.23)
+			(xy 134.62 69.85) (xy 134.62 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 134.62) (xy 54.61 137.16)
+			(xy 76.2 144.78) (xy 76.2 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 25.4) (xy 66.04 25.4)
+			(xy 82.55 35.56) (xy 87.63 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3030,7 +3030,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 124.46) (xy 67.31 128.27)
+			(xy 88.9 134.62) (xy 88.9 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3040,7 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 138.43) (xy 179.07 138.43)
+			(xy 196.85 148.59) (xy 200.66 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 72.39) (xy 52.07 72.39)
+			(xy 77.47 82.55) (xy 73.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 21.59) (xy 86.36 25.4)
+			(xy 107.95 31.75) (xy 107.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 73.66) (xy 151.13 69.85)
+			(xy 172.72 83.82) (xy 172.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3080,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 72.39) (xy 52.07 63.5)
+			(xy 73.66 82.55) (xy 73.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 140.97) (xy 99.06 138.43)
+			(xy 120.65 151.13) (xy 120.65 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 124.46) (xy 64.77 128.27)
+			(xy 86.36 134.62) (xy 86.36 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3110,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 72.39) (xy 43.18 77.47)
+			(xy 64.77 82.55) (xy 64.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 86.36 39.37)
+			(xy 107.95 46.99) (xy 107.95 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3130,7 +3130,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 59.69) (xy 137.16 83.82)
+			(xy 158.75 69.85) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 81.28) (xy 146.05 81.28)
+			(xy 165.1 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3150,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 27.94) (xy 35.56 27.94)
+			(xy 50.8 38.1) (xy 57.15 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3160,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 116.84) (xy 74.93 116.84)
+			(xy 93.98 127) (xy 96.52 127)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 43.18 101.6)
+			(xy 64.77 113.03) (xy 64.77 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 130.81) (xy 102.87 130.81)
+			(xy 119.38 140.97) (xy 124.46 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 46.99) (xy 113.03 48.26)
+			(xy 134.62 57.15) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 35.56 55.88)
+			(xy 57.15 62.23) (xy 57.15 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 54.61 124.46)
+			(xy 76.2 129.54) (xy 76.2 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3220,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 138.43) (xy 102.87 138.43)
+			(xy 120.65 148.59) (xy 124.46 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3230,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 57.15 119.38)
+			(xy 76.2 129.54) (xy 78.74 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3240,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 86.36)
+			(xy 134.62 95.25) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3250,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 128.27) (xy 151.13 130.81)
+			(xy 172.72 138.43) (xy 172.72 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3260,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 57.15 114.3)
+			(xy 64.77 124.46) (xy 78.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 25.4) (xy 60.96 29.21)
+			(xy 82.55 35.56) (xy 82.55 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3280,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 39.37) (xy 60.96 39.37)
+			(xy 95.25 49.53) (xy 82.55 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3290,7 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 87.63) (xy 43.18 90.17)
+			(xy 64.77 97.79) (xy 64.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3300,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 73.66 39.37)
+			(xy 95.25 43.18) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3310,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 27.94) (xy 113.03 27.94)
+			(xy 130.81 38.1) (xy 134.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3320,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 137.16 59.69)
+			(xy 134.62 69.85) (xy 158.75 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 135.89) (xy 152.4 135.89)
+			(xy 170.18 146.05) (xy 173.99 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 133.35) (xy 102.87 133.35)
+			(xy 119.38 143.51) (xy 124.46 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3350,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 134.62) (xy 181.61 134.62)
+			(xy 196.85 144.78) (xy 203.2 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 130.81) (xy 179.07 130.81)
+			(xy 196.85 140.97) (xy 200.66 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3370,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 130.81) (xy 179.07 132.08)
+			(xy 200.66 140.97) (xy 200.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3380,7 +3380,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 130.81) (xy 148.59 130.81)
+			(xy 172.72 140.97) (xy 170.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 151.13 96.52)
+			(xy 172.72 109.22) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 35.56 49.53)
+			(xy 50.8 59.69) (xy 57.15 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3410,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 124.46) (xy 64.77 124.46)
+			(xy 76.2 134.62) (xy 86.36 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 110.49) (xy 43.18 114.3)
+			(xy 64.77 120.65) (xy 64.77 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 116.84) (xy 78.74 116.84)
+			(xy 96.52 127) (xy 100.33 127)
 		)
 		(stroke
 			(width 0)
@@ -3440,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 73.66 74.93)
+			(xy 92.71 85.09) (xy 95.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3450,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 113.03 97.79)
+			(xy 128.27 107.95) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3460,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 124.46) (xy 43.18 128.27)
+			(xy 64.77 134.62) (xy 64.77 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 52.07) (xy 35.56 52.07)
+			(xy 50.8 62.23) (xy 57.15 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3480,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 63.5) (xy 73.66 74.93)
+			(xy 95.25 73.66) (xy 95.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3490,7 +3490,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 55.88) (xy 113.03 59.69)
+			(xy 134.62 66.04) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3500,7 +3500,7 @@
 	)
 	(global_label "Vcurrent"
 		(shape input)
-		(at 106.68 30.48 180)
+		(at 128.27 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3510,7 +3510,7 @@
 		)
 		(uuid "065c8a01-9a72-4afc-9290-d58b37644664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.8329 30.48 0)
+			(at 117.4229 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3522,7 @@
 	)
 	(global_label "Vamp1"
 		(shape input)
-		(at 93.98 59.69 180)
+		(at 115.57 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3532,7 +3532,7 @@
 		)
 		(uuid "30f2bfdd-106d-4a5f-b9f0-ad325c93b478")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.7054 59.69 0)
+			(at 106.2954 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +3544,7 @@
 	)
 	(global_label "Pot-"
 		(shape input)
-		(at 152.4 135.89 0)
+		(at 173.99 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3554,7 +3554,7 @@
 		)
 		(uuid "39bd3460-33bc-44c6-a288-9073338e65e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1023 135.89 0)
+			(at 181.6923 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3566,7 @@
 	)
 	(global_label "Vcurrent"
 		(shape input)
-		(at 43.18 60.96 90)
+		(at 64.77 71.12 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3576,7 +3576,7 @@
 		)
 		(uuid "3bd36790-7ac0-4d16-869e-f6613fe4d37f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 50.1129 90)
+			(at 64.77 60.2729 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +3588,7 @@
 	)
 	(global_label "STEP"
 		(shape input)
-		(at 175.26 134.62 180)
+		(at 196.85 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3598,7 +3598,7 @@
 		)
 		(uuid "4475fc1a-b62a-4f5d-8351-598ab0a11283")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6787 134.62 0)
+			(at 189.2687 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +3610,7 @@
 	)
 	(global_label "DIR"
 		(shape input)
-		(at 97.79 133.35 180)
+		(at 119.38 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3620,7 +3620,7 @@
 		)
 		(uuid "5e666265-b871-4045-b882-0c5b7378ce3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.66 133.35 0)
+			(at 113.25 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3632,7 @@
 	)
 	(global_label "STEP"
 		(shape input)
-		(at 97.79 130.81 180)
+		(at 119.38 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3642,7 +3642,7 @@
 		)
 		(uuid "61f63d9d-900d-461d-8430-178a5f592c63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.2087 130.81 0)
+			(at 111.7987 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3654,7 @@
 	)
 	(global_label "Pot+"
 		(shape input)
-		(at 67.31 128.27 270)
+		(at 88.9 138.43 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3664,7 +3664,7 @@
 		)
 		(uuid "72a02904-f689-4c14-a622-9a8afbb993a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 135.9723 90)
+			(at 88.9 146.1323 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3676,7 @@
 	)
 	(global_label "Vamp2"
 		(shape input)
-		(at 78.74 116.84 0)
+		(at 100.33 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3686,7 +3686,7 @@
 		)
 		(uuid "83bf5de4-33f0-4c0c-9199-f44eecd4ace6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.0146 116.84 0)
+			(at 109.6046 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +3698,7 @@
 	)
 	(global_label "Vamp2"
 		(shape input)
-		(at 93.98 97.79 180)
+		(at 115.57 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3708,7 +3708,7 @@
 		)
 		(uuid "938c3836-7697-4c8c-900b-97c421f7b3da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.7054 97.79 0)
+			(at 106.2954 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3720,7 @@
 	)
 	(global_label "POT_CS"
 		(shape input)
-		(at 152.4 133.35 0)
+		(at 173.99 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3730,7 +3730,7 @@
 		)
 		(uuid "b76099c7-6053-410c-a21d-c865ef59a397")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.4004 133.35 0)
+			(at 183.9904 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3742,7 @@
 	)
 	(global_label "POT_CS"
 		(shape input)
-		(at 175.26 138.43 180)
+		(at 196.85 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3752,7 +3752,7 @@
 		)
 		(uuid "bb225385-3e97-4d8a-953a-5e0c9e79143c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.2596 138.43 0)
+			(at 186.8496 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +3764,7 @@
 	)
 	(global_label "DIR"
 		(shape input)
-		(at 175.26 130.81 180)
+		(at 196.85 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3774,7 +3774,7 @@
 		)
 		(uuid "e8a57cb2-a362-46eb-8fe2-5fab7a6026b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.13 130.81 0)
+			(at 190.72 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3786,7 @@
 	)
 	(global_label "Pot+"
 		(shape input)
-		(at 152.4 138.43 0)
+		(at 173.99 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3796,7 +3796,7 @@
 		)
 		(uuid "ee5a0913-096e-4907-8a2c-283e02a724f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1023 138.43 0)
+			(at 181.6923 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3808,7 @@
 	)
 	(global_label "Vamp1"
 		(shape input)
-		(at 76.2 74.93 0)
+		(at 97.79 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3818,7 +3818,7 @@
 		)
 		(uuid "f1664cbe-0db9-49ad-94bf-67f4068ea61e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4746 74.93 0)
+			(at 107.0646 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3830,7 @@
 	)
 	(global_label "Pot-"
 		(shape input)
-		(at 64.77 128.27 270)
+		(at 86.36 138.43 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3840,7 +3840,7 @@
 		)
 		(uuid "f2edbaa4-46bf-41f2-912b-48716de21141")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 135.9723 90)
+			(at 86.36 146.1323 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3852,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 24.13 102.87 0)
+		(at 45.72 113.03 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,7 +3861,7 @@
 		(fields_autoplaced yes)
 		(uuid "00b51bbd-4c2f-4e5c-9e91-05369c8e08fc")
 		(property "Reference" "U4"
-			(at 22.86 101.5999 0)
+			(at 44.45 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 22.86 104.1399 0)
+			(at 44.45 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W10.16mm_LongPads"
-			(at 24.13 102.87 0)
+			(at 45.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 24.13 102.87 0)
+			(at 45.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3897,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 24.13 102.87 0)
+			(at 45.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,6 +3930,12 @@
 			(uuid "e8cd4f48-70d6-45bf-9b37-8b2e59ae96e1")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "U4")
+					(unit 3)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "U4")
@@ -3940,7 +3946,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 133.35 29.21 0)
+		(at 154.94 39.37 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3949,7 +3955,7 @@
 		(fields_autoplaced yes)
 		(uuid "06ac3538-7246-44b0-9a66-9d541800f8bd")
 		(property "Reference" "H2"
-			(at 135.89 27.9399 0)
+			(at 157.48 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3964,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 135.89 30.4799 0)
+			(at 157.48 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3973,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 133.35 29.21 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3982,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 29.21 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3991,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 133.35 29.21 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,6 +4000,12 @@
 			)
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "H2")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "H2")
@@ -4004,7 +4016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 41.91 0)
+		(at 95.25 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4013,7 +4025,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a6d979d-d970-4171-9aef-e046fe6e5271")
 		(property "Reference" "#PWR08"
-			(at 73.66 48.26 0)
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 46.99 0)
+			(at 95.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 41.91 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 41.91 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 41.91 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,6 +4072,12 @@
 			(uuid "aec5b445-f59b-4ec7-822b-66900c15499d")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR08")
@@ -4070,7 +4088,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 90.17 0)
+		(at 64.77 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4078,7 +4096,7 @@
 		(dnp no)
 		(uuid "0d393ae5-e4fc-4b3d-9edf-aa22972199e0")
 		(property "Reference" "#PWR023"
-			(at 43.18 96.52 0)
+			(at 64.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 94.742 0)
+			(at 64.77 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 90.17 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 90.17 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 90.17 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,6 +4143,12 @@
 			(uuid "d3a02aa2-5145-41da-9bbe-e74c1c40addb")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR023")
@@ -4135,7 +4159,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 186.69 134.62 180)
+		(at 208.28 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4144,7 +4168,7 @@
 		(fields_autoplaced yes)
 		(uuid "11a1386c-d7db-4b8d-8c07-2a470b4a3fe6")
 		(property "Reference" "J5"
-			(at 187.96 133.3499 0)
+			(at 209.55 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4177,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 187.96 135.8899 0)
+			(at 209.55 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4186,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 186.69 134.62 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 134.62 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4204,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 186.69 134.62 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,6 +4222,12 @@
 			(uuid "c57e20d4-dc5a-4005-b9f6-dd916349a8fd")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "J5")
@@ -4208,7 +4238,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 35.56 21.59 0)
+		(at 57.15 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4217,7 +4247,7 @@
 		(fields_autoplaced yes)
 		(uuid "17406984-e2cd-4f48-ad1e-6727fcc55eaa")
 		(property "Reference" "#PWR015"
-			(at 35.56 25.4 0)
+			(at 57.15 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4256,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 35.56 16.51 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 21.59 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 21.59 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 35.56 21.59 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,6 +4294,12 @@
 			(uuid "d730a586-28e6-4d84-a260-d010a737315b")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR015")
@@ -4274,7 +4310,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 31.75 0)
+		(at 57.15 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4283,7 +4319,7 @@
 		(fields_autoplaced yes)
 		(uuid "20583115-ff0b-4c73-a1ab-3035256b5431")
 		(property "Reference" "#PWR016"
-			(at 35.56 38.1 0)
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 36.83 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 31.75 0)
+			(at 57.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 31.75 0)
+			(at 57.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 31.75 0)
+			(at 57.15 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,6 +4366,12 @@
 			(uuid "abba3580-e07a-4a5a-8527-4e0f700ad6a9")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR016")
@@ -4340,16 +4382,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 113.03 46.99 0)
+		(at 134.62 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2af73b64-a8f5-4da4-8235-5fd0fa9fd84e")
 		(property "Reference" "#PWR04"
-			(at 113.03 50.8 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4399,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 113.03 41.91 0)
+			(at 138.43 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 46.99 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 46.99 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 46.99 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,6 +4437,12 @@
 			(uuid "12472e84-7bf5-4945-995f-d15b6d470709")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR04")
@@ -4406,7 +4453,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 73.66 0)
+		(at 172.72 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4415,7 +4462,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bb15fe2-1518-4107-9d2f-984951f80f95")
 		(property "Reference" "#PWR07"
-			(at 151.13 80.01 0)
+			(at 172.72 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4471,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 78.74 0)
+			(at 172.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 73.66 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 73.66 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 73.66 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,6 +4509,12 @@
 			(uuid "18e63881-ef67-43a6-bee4-c6a9def94e46")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR07")
@@ -4472,7 +4525,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 133.35 39.37 0)
+		(at 154.94 49.53 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4481,7 +4534,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fc4834d-d05c-4b2b-9eea-eb12a1775df3")
 		(property "Reference" "H4"
-			(at 135.89 38.0999 0)
+			(at 157.48 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4543,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 135.89 40.6399 0)
+			(at 157.48 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4552,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 133.35 39.37 0)
+			(at 154.94 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 39.37 0)
+			(at 154.94 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4570,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 133.35 39.37 0)
+			(at 154.94 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,6 +4579,12 @@
 			)
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "H4")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "H4")
@@ -4536,7 +4595,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 151.13 86.36 180)
+		(at 172.72 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4545,7 +4604,7 @@
 		(fields_autoplaced yes)
 		(uuid "30ab5146-4f10-4506-af87-48b548abc224")
 		(property "Reference" "J4"
-			(at 152.4 83.8199 0)
+			(at 173.99 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4613,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 152.4 86.3599 0)
+			(at 173.99 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4622,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 151.13 86.36 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 86.36 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4640,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 151.13 86.36 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,6 +4661,12 @@
 			(uuid "3d79e4e4-a839-4f46-a8d5-d7b285ab529b")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "J4")
@@ -4612,7 +4677,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 130.81 180)
+		(at 76.2 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4621,7 +4686,7 @@
 		(fields_autoplaced yes)
 		(uuid "32735cb8-d03c-4d16-b1df-ded921a957a5")
 		(property "Reference" "R9"
-			(at 57.15 129.5399 0)
+			(at 78.74 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4695,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 57.15 132.0799 0)
+			(at 78.74 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4704,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 56.388 130.81 90)
+			(at 77.978 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 130.81 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4722,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 130.81 0)
+			(at 76.2 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,6 +4737,12 @@
 			(uuid "b7b45084-9b0b-45b7-8b32-1146657e5cc9")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "R9")
@@ -4682,7 +4753,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 86.36 33.02 0)
+		(at 107.95 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4691,7 +4762,7 @@
 		(fields_autoplaced yes)
 		(uuid "4424a81f-04cd-4d15-a7ad-d27657722d15")
 		(property "Reference" "C5"
-			(at 90.17 30.8609 0)
+			(at 111.76 41.0209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4771,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 90.17 33.4009 0)
+			(at 111.76 43.5609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4780,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 87.3252 36.83 0)
+			(at 108.9152 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 33.02 0)
+			(at 107.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4798,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 86.36 33.02 0)
+			(at 107.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,6 +4813,12 @@
 			(uuid "c3cb70ba-b88e-4316-954b-221be8b845ad")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "C5")
@@ -4752,7 +4829,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 118.11 30.48 0)
+		(at 139.7 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4761,7 +4838,7 @@
 		(fields_autoplaced yes)
 		(uuid "44456228-4503-4aee-8a51-6458a56026c2")
 		(property "Reference" "J2"
-			(at 120.65 30.48 90)
+			(at 142.24 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4846,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 123.19 30.48 90)
+			(at 144.78 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4854,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 118.11 30.48 0)
+			(at 139.7 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 30.48 0)
+			(at 139.7 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4872,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 118.11 30.48 0)
+			(at 139.7 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,6 +4890,12 @@
 			(uuid "23db0f07-4b71-4684-b34f-9bbbd2a4f252")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "J2")
@@ -4823,7 +4906,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 133.35 24.13 0)
+		(at 154.94 34.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4832,7 +4915,7 @@
 		(fields_autoplaced yes)
 		(uuid "4858ba67-01e8-42d4-8dec-39e94cc2e600")
 		(property "Reference" "H1"
-			(at 135.89 22.8599 0)
+			(at 157.48 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4924,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 135.89 25.3999 0)
+			(at 157.48 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4933,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 133.35 24.13 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +4942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 24.13 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4951,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 133.35 24.13 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,6 +4960,12 @@
 			)
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "H1")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "H1")
@@ -4887,7 +4976,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 97.79 90)
+		(at 124.46 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4896,7 +4985,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e510b4a-a08f-461e-8e32-9cc2d9d11133")
 		(property "Reference" "R3"
-			(at 102.87 91.44 90)
+			(at 124.46 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4993,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 102.87 93.98 90)
+			(at 124.46 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +5001,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 102.87 99.568 90)
+			(at 124.46 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +5010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 97.79 0)
+			(at 124.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +5019,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 97.79 0)
+			(at 124.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,6 +5034,12 @@
 			(uuid "88e5c9e1-1187-4948-bf6a-b7b7afb63d27")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "R3")
@@ -4955,7 +5050,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 64.77 116.84 0)
+		(at 86.36 127 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4964,7 +5059,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fc32f7f-18e3-4799-bb44-7962ca5d99c3")
 		(property "Reference" "U4"
-			(at 64.77 106.68 0)
+			(at 86.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5067,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 64.77 109.22 0)
+			(at 86.36 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +5075,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W10.16mm_LongPads"
-			(at 64.77 116.84 0)
+			(at 86.36 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,7 +5084,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 64.77 116.84 0)
+			(at 86.36 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +5093,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 64.77 116.84 0)
+			(at 86.36 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,6 +5126,12 @@
 			(uuid "e8cd4f48-70d6-45bf-9b37-8b2e59ae96e2")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "U4")
+					(unit 2)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "U4")
@@ -5041,7 +5142,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 25.4 0)
+		(at 130.81 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5050,7 +5151,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a5ff21f-bb11-4ce4-92e8-880ac3575208")
 		(property "Reference" "#PWR010"
-			(at 109.22 29.21 0)
+			(at 130.81 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5160,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 109.22 20.32 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 25.4 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 25.4 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 25.4 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,6 +5198,12 @@
 			(uuid "96630f58-d555-4e1a-a8c2-349ccb3b7ef2")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR010")
@@ -5107,7 +5214,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5822")
-		(at 113.03 52.07 270)
+		(at 134.62 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5116,7 +5223,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f34aece-f668-4c6d-bb9d-ffb257318ff0")
 		(property "Reference" "D2"
-			(at 115.57 50.4824 90)
+			(at 137.16 60.6424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5232,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 115.57 53.0224 90)
+			(at 137.16 63.1824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5241,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 108.585 52.07 0)
+			(at 130.175 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5250,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-			(at 113.03 52.07 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5259,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 113.03 52.07 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,6 +5274,12 @@
 			(uuid "fbccfa08-2820-46f1-8bcd-14b9b65310bd")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "D2")
@@ -5177,7 +5290,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 21.59 91.44 0)
+		(at 43.18 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5186,7 +5299,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bd72adf-c522-4447-9cf0-d328e858a6ff")
 		(property "Reference" "#PWR018"
-			(at 21.59 95.25 0)
+			(at 43.18 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +5308,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.59 86.36 0)
+			(at 43.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 91.44 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 91.44 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 21.59 91.44 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,6 +5346,12 @@
 			(uuid "bcd14f14-21f6-4374-a296-69aa5541546a")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR018")
@@ -5243,7 +5362,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 151.13 96.52 0)
+		(at 172.72 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5251,7 +5370,7 @@
 		(dnp no)
 		(uuid "6fb283c8-5cfe-4228-8092-75f8e4c895ca")
 		(property "Reference" "#PWR06"
-			(at 151.13 100.33 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5379,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 151.13 91.44 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 96.52 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 96.52 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5405,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 151.13 96.52 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,6 +5417,12 @@
 			(uuid "585b2ae2-3818-4e07-8d64-bee3e77d955b")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR06")
@@ -5308,7 +5433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 137.16 0)
+		(at 76.2 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5317,7 +5442,7 @@
 		(fields_autoplaced yes)
 		(uuid "7259d8dc-59de-45e8-ba01-5212cf960049")
 		(property "Reference" "#PWR026"
-			(at 54.61 143.51 0)
+			(at 76.2 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 142.24 0)
+			(at 76.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 137.16 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 137.16 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 137.16 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,6 +5489,12 @@
 			(uuid "0fab16c1-66a8-4091-b3ff-e4e70da494ff")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR026")
@@ -5374,16 +5505,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 113.03 85.09 0)
+		(at 134.62 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "743b06d4-c097-4e85-9e19-e23fd67ec095")
 		(property "Reference" "#PWR03"
-			(at 113.03 88.9 0)
+			(at 134.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5522,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 113.03 80.01 0)
+			(at 137.922 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 85.09 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 85.09 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 85.09 0)
+			(at 134.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,6 +5560,12 @@
 			(uuid "2d87f7f3-57db-4bcf-8467-138a9b2f1a46")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR03")
@@ -5440,7 +5576,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 83.82 0)
+		(at 64.77 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5449,7 +5585,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e58828c-829f-494b-8f0c-831c75327c99")
 		(property "Reference" "R2"
-			(at 45.72 82.5499 0)
+			(at 67.31 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5594,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 45.72 85.0899 0)
+			(at 67.31 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5603,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.402 83.82 90)
+			(at 62.992 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 83.82 0)
+			(at 64.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5621,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 83.82 0)
+			(at 64.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,6 +5636,12 @@
 			(uuid "cf0d0374-3a54-4178-89c3-7cbdc1b64291")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "R2")
@@ -5510,7 +5652,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 43.18 101.6 0)
+		(at 64.77 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5519,7 +5661,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ce34365-44d1-4cdc-a29c-1c281635776e")
 		(property "Reference" "#PWR025"
-			(at 43.18 105.41 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5670,7 @@
 			)
 		)
 		(property "Value" "Vpanel"
-			(at 45.72 100.3299 0)
+			(at 67.31 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 101.6 0)
+			(at 64.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 101.6 0)
+			(at 64.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 43.18 101.6 0)
+			(at 64.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,6 +5709,12 @@
 			(uuid "b2d804aa-62e8-4eaa-b94a-a27e1f10811f")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR025")
@@ -5577,7 +5725,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 63.5 74.93 0)
+		(at 85.09 85.09 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5586,7 +5734,7 @@
 		(dnp no)
 		(uuid "8e0e23c7-86da-4342-9fcc-f8423e1db056")
 		(property "Reference" "U4"
-			(at 63.5 85.09 0)
+			(at 85.09 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5742,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 63.5 82.55 0)
+			(at 85.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5750,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W10.16mm_LongPads"
-			(at 63.5 74.93 0)
+			(at 85.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5759,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 63.5 74.93 0)
+			(at 85.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5768,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 63.5 74.93 0)
+			(at 85.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,6 +5801,12 @@
 			(uuid "e8cd4f48-70d6-45bf-9b37-8b2e59ae96e3")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "U4")
@@ -5663,7 +5817,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 140.97 0)
+		(at 120.65 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5672,7 +5826,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a293e0c-7ba2-4fcb-83ce-7e082fe5dcef")
 		(property "Reference" "#PWR012"
-			(at 99.06 147.32 0)
+			(at 120.65 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +5835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 146.05 0)
+			(at 120.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 140.97 0)
+			(at 120.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 140.97 0)
+			(at 120.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 140.97 0)
+			(at 120.65 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,6 +5873,12 @@
 			(uuid "00c4713c-9d59-4b7e-91a1-ef536dfd1105")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR012")
@@ -5729,7 +5889,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 59.69 90)
+		(at 124.46 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5738,7 +5898,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fdf289b-2b0c-482c-976c-c5f8abb143ca")
 		(property "Reference" "R4"
-			(at 102.87 53.34 90)
+			(at 124.46 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5906,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 102.87 55.88 90)
+			(at 124.46 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 102.87 61.468 90)
+			(at 124.46 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 59.69 0)
+			(at 124.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5932,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 59.69 0)
+			(at 124.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,6 +5947,12 @@
 			(uuid "16c696b2-0845-4056-828c-a584ab408567")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "R4")
@@ -5797,7 +5963,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 128.27 0)
+		(at 64.77 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5806,7 +5972,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6ce1216-96cf-497f-8095-3d0cfe04de91")
 		(property "Reference" "#PWR027"
-			(at 43.18 134.62 0)
+			(at 64.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5981,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 133.35 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 128.27 0)
+			(at 64.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 128.27 0)
+			(at 64.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +6007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 128.27 0)
+			(at 64.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,6 +6019,12 @@
 			(uuid "c3e36536-60f5-4e2c-83b2-8be9ca744565")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR027")
@@ -5863,7 +6035,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 120.65 180)
+		(at 64.77 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5872,7 +6044,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa569709-82bd-4cf5-8fc4-8dfd8f7b7f44")
 		(property "Reference" "R10"
-			(at 45.72 119.3799 0)
+			(at 67.31 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6053,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 45.72 121.9199 0)
+			(at 67.31 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +6062,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 44.958 120.65 90)
+			(at 66.548 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +6071,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 120.65 0)
+			(at 64.77 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +6080,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 120.65 0)
+			(at 64.77 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,6 +6095,12 @@
 			(uuid "16d2d419-7f74-4c59-8754-c0803ccfd105")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "R10")
@@ -5933,7 +6111,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 114.3 0)
+		(at 43.18 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5942,7 +6120,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab54be25-2941-49e8-948e-5b9798be4d28")
 		(property "Reference" "#PWR019"
-			(at 21.59 120.65 0)
+			(at 43.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +6129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 119.38 0)
+			(at 43.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 114.3 0)
+			(at 43.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 114.3 0)
+			(at 43.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +6155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 114.3 0)
+			(at 43.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,6 +6167,12 @@
 			(uuid "e6ec2742-cb0f-4840-8852-6bee0047c724")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR019")
@@ -5999,7 +6183,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 60.96 33.02 0)
+		(at 82.55 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6008,7 +6192,7 @@
 		(fields_autoplaced yes)
 		(uuid "b08bcc55-4a02-484e-934b-50ff8ca9fd8e")
 		(property "Reference" "C4"
-			(at 64.77 30.8609 0)
+			(at 86.36 41.0209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6201,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 64.77 33.4009 0)
+			(at 86.36 43.5609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6210,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 61.9252 36.83 0)
+			(at 83.5152 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 33.02 0)
+			(at 82.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6228,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 60.96 33.02 0)
+			(at 82.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,6 +6243,12 @@
 			(uuid "c712753c-5ebf-4dc0-9bcc-5aaacb143f7d")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "C4")
@@ -6069,7 +6259,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 72.39 0)
+		(at 134.62 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6078,7 +6268,7 @@
 		(fields_autoplaced yes)
 		(uuid "b12230fd-99b9-477e-85eb-2ccfb3c4757f")
 		(property "Reference" "#PWR011"
-			(at 113.03 78.74 0)
+			(at 134.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 77.47 0)
+			(at 134.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 72.39 0)
+			(at 134.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 72.39 0)
+			(at 134.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 72.39 0)
+			(at 134.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,6 +6315,12 @@
 			(uuid "2754fa77-ed7f-4f61-b8fb-897007b61be2")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR011")
@@ -6135,7 +6331,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 22.86 0)
+		(at 82.55 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6144,7 +6340,7 @@
 		(fields_autoplaced yes)
 		(uuid "be17ffbd-8098-4613-90b9-644d1d8748c8")
 		(property "Reference" "#PWR02"
-			(at 60.96 26.67 0)
+			(at 82.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6349,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 60.96 17.78 0)
+			(at 82.55 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 22.86 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 22.86 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 22.86 0)
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,6 +6387,12 @@
 			(uuid "e4887a38-da21-400c-8b00-53c4c5b7d568")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR02")
@@ -6201,7 +6403,7 @@
 	)
 	(symbol
 		(lib_id "2024-08-13_23-58-24:X9C103S")
-		(at 102.87 130.81 0)
+		(at 124.46 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6210,7 +6412,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4426342-759e-48a7-821b-7bb5cf227080")
 		(property "Reference" "U1"
-			(at 125.73 120.65 0)
+			(at 147.32 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6218,15 +6420,15 @@
 			)
 		)
 		(property "Value" "X9C103S"
-			(at 125.73 123.19 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "SOIC8_3P9116X4P9022_INR"
-			(at 102.87 130.81 0)
+		(property "Footprint" "RF_GPS:X9C103S"
+			(at 124.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6438,7 @@
 			)
 		)
 		(property "Datasheet" "X9C103S"
-			(at 102.87 130.81 0)
+			(at 124.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 130.81 0)
+			(at 124.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,6 +6481,12 @@
 			(uuid "c4bcb61f-4a24-47ba-8596-5175cec683de")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "U1")
@@ -6289,7 +6497,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 113.03 104.14 0)
+		(at 134.62 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6298,7 +6506,7 @@
 		(fields_autoplaced yes)
 		(uuid "c505213b-ae6a-4f11-98ab-6635253b94c8")
 		(property "Reference" "C1"
-			(at 116.84 101.9809 0)
+			(at 138.43 112.1409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6515,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 116.84 104.5209 0)
+			(at 138.43 114.6809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,7 +6524,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 113.9952 107.95 0)
+			(at 135.5852 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 104.14 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6542,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 113.03 104.14 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,6 +6557,12 @@
 			(uuid "a37af193-bce6-4da7-9fd7-20111bf071f5")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "C1")
@@ -6359,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 86.36 21.59 0)
+		(at 107.95 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6368,7 +6582,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5b8eb58-cc3c-4720-9db5-d1922131e82a")
 		(property "Reference" "#PWR09"
-			(at 86.36 25.4 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6591,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 86.36 16.51 0)
+			(at 107.95 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +6599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 21.59 0)
+			(at 107.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +6608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 21.59 0)
+			(at 107.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +6617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 21.59 0)
+			(at 107.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,6 +6629,12 @@
 			(uuid "04d8be3f-c0a6-47ac-9609-c847af9d7375")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR09")
@@ -6425,7 +6645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 55.88 0)
+		(at 57.15 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6434,7 +6654,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccc12610-8f0f-4ab6-823c-7767a44796d3")
 		(property "Reference" "#PWR014"
-			(at 35.56 62.23 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 60.96 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 55.88 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 55.88 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 55.88 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,6 +6701,12 @@
 			(uuid "e7e3f460-ab9f-4690-bb78-c2cbbadb313b")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR014")
@@ -6491,7 +6717,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 151.13 128.27 0)
+		(at 172.72 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6500,7 +6726,7 @@
 		(fields_autoplaced yes)
 		(uuid "ceabdc34-bea0-49e1-b5d7-d7d64f646087")
 		(property "Reference" "#PWR017"
-			(at 151.13 132.08 0)
+			(at 172.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6735,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 123.19 0)
+			(at 172.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 128.27 0)
+			(at 172.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 128.27 0)
+			(at 172.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 128.27 0)
+			(at 172.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,6 +6773,12 @@
 			(uuid "2c200021-49af-474e-b892-11b2f2996132")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR017")
@@ -6557,7 +6789,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 133.35 34.29 0)
+		(at 154.94 44.45 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6566,7 +6798,7 @@
 		(fields_autoplaced yes)
 		(uuid "d54a9f07-c5e0-4e8b-8f1b-a02590a748c4")
 		(property "Reference" "H3"
-			(at 135.89 33.0199 0)
+			(at 157.48 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6575,7 +6807,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 135.89 35.5599 0)
+			(at 157.48 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6816,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 133.35 34.29 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +6825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 34.29 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +6834,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 133.35 34.29 0)
+			(at 154.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,6 +6843,12 @@
 			)
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "H3")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "H3")
@@ -6620,76 +6858,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 24.13 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbd74609-f883-4e0a-89d1-cfca1ced9d8c")
-		(property "Reference" "J3"
-			(at 24.13 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 24.13 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 24.13 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6abbadcb-e0a7-49ea-911e-52cffe51ebf9")
-		)
-		(pin "2"
-			(uuid "f40d858d-b603-42b7-8bc1-8cd156047bcd")
-		)
-		(instances
-			(project "monitoreo_solar"
-				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 73.66 25.4 0)
+		(at 95.25 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6698,7 +6868,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3cb159c-1907-4416-a317-d960441888e3")
 		(property "Reference" "U2"
-			(at 73.66 19.05 0)
+			(at 95.25 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6876,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 73.66 21.59 0)
+			(at 95.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 73.66 20.32 0)
+			(at 95.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6893,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 76.2 31.75 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6902,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 73.66 25.4 0)
+			(at 95.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,6 +6920,12 @@
 			(uuid "26959e66-5b40-4951-8fa7-5da68a2234b5")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "U2")
@@ -6759,8 +6935,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 45.72 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e46ab1e1-c637-44e2-8ab3-5d62986578f6")
+		(property "Reference" "J3"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3d2e53-bf38-4d37-b652-db62cdba926c")
+		)
+		(pin "2"
+			(uuid "76c244f7-16b9-446b-9324-1df5c8423305")
+		)
+		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+48V")
-		(at 35.56 45.72 0)
+		(at 57.15 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6769,7 +7013,7 @@
 		(fields_autoplaced yes)
 		(uuid "e537c516-9742-4f9f-a8f5-eb89b33c1723")
 		(property "Reference" "#PWR013"
-			(at 35.56 49.53 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +7022,7 @@
 			)
 		)
 		(property "Value" "Vpanel"
-			(at 38.1 44.4499 0)
+			(at 59.69 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +7031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 45.72 0)
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +7040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 45.72 0)
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +7049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 35.56 45.72 0)
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,6 +7061,12 @@
 			(uuid "c499ec75-2a7b-43b7-97a7-5955de85e2d3")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR013")
@@ -6827,7 +7077,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 24.13 52.07 180)
+		(at 45.72 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6835,7 +7085,7 @@
 		(dnp no)
 		(uuid "e687adf4-39c5-454d-8d26-00490b5ef49e")
 		(property "Reference" "J1"
-			(at 24.13 43.18 0)
+			(at 45.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +7093,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 24.13 45.72 0)
+			(at 45.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +7101,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 24.13 52.07 0)
+			(at 45.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +7110,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 52.07 0)
+			(at 45.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +7119,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 52.07 0)
+			(at 45.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,6 +7134,12 @@
 			(uuid "4b3fecc9-205f-4a00-aaba-80287633bd3e")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "J1")
@@ -6894,7 +7150,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 36.83 0)
+		(at 130.81 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6903,7 +7159,7 @@
 		(fields_autoplaced yes)
 		(uuid "e748043c-d9e8-43ad-bc12-ee09843fe287")
 		(property "Reference" "#PWR05"
-			(at 109.22 43.18 0)
+			(at 130.81 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +7168,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 41.91 0)
+			(at 130.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,7 +7176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 36.83 0)
+			(at 130.81 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +7185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 36.83 0)
+			(at 130.81 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 36.83 0)
+			(at 130.81 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,6 +7206,12 @@
 			(uuid "42a2ea13-357b-4dae-ad19-df665e77c300")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR05")
@@ -6960,7 +7222,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 106.68 180)
+		(at 64.77 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6969,7 +7231,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8abdb5d-3672-4bed-8ede-955d0bcdf405")
 		(property "Reference" "R11"
-			(at 45.72 105.4099 0)
+			(at 67.31 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7240,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 45.72 107.9499 0)
+			(at 67.31 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,7 +7249,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 44.958 106.68 90)
+			(at 66.548 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +7258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 106.68 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +7267,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 106.68 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,6 +7282,12 @@
 			(uuid "f1db1f41-d951-4ec3-8cfa-53cb0432b0c3")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "R11")
@@ -7030,7 +7298,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 113.03 66.04 0)
+		(at 134.62 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7039,7 +7307,7 @@
 		(fields_autoplaced yes)
 		(uuid "eedfb23d-a09f-4dc3-ba56-ed57ea0625fb")
 		(property "Reference" "C2"
-			(at 116.84 63.8809 0)
+			(at 138.43 74.0409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +7316,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 116.84 66.4209 0)
+			(at 138.43 76.5809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +7325,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 113.9952 69.85 0)
+			(at 135.5852 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 66.04 0)
+			(at 134.62 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7343,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 113.03 66.04 0)
+			(at 134.62 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,6 +7358,12 @@
 			(uuid "5e41de08-cd56-4a1e-991e-3481fda08427")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "C2")
@@ -7100,7 +7374,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5822")
-		(at 113.03 90.17 270)
+		(at 134.62 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7109,7 +7383,7 @@
 		(fields_autoplaced yes)
 		(uuid "f540a42d-476d-4b95-86b7-a346f07e8d2c")
 		(property "Reference" "D1"
-			(at 115.57 88.5824 90)
+			(at 137.16 98.7424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +7392,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 115.57 91.1224 90)
+			(at 137.16 101.2824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +7401,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 108.585 90.17 0)
+			(at 130.175 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +7410,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-			(at 113.03 90.17 0)
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +7419,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 113.03 90.17 0)
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,6 +7434,12 @@
 			(uuid "20957545-14f9-4c54-88e6-50f4ab4aaeae")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "D1")
@@ -7170,7 +7450,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 68.58 0)
+		(at 64.77 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7179,7 +7459,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9bee052-0045-4c2e-9b22-8a3ce8409e5c")
 		(property "Reference" "R1"
-			(at 45.72 67.3099 0)
+			(at 67.31 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7468,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 45.72 69.8499 0)
+			(at 67.31 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7477,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.402 68.58 90)
+			(at 62.992 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 68.58 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7495,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 68.58 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,6 +7510,12 @@
 			(uuid "5226c0e6-a2ad-4310-b46c-7632919b6664")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "R1")
@@ -7240,7 +7526,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 110.49 0)
+		(at 134.62 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7249,7 +7535,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa4597d6-1942-4488-b2b4-c17a65761506")
 		(property "Reference" "#PWR01"
-			(at 113.03 116.84 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7258,7 +7544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 115.57 0)
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 110.49 0)
+			(at 134.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 110.49 0)
+			(at 134.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 110.49 0)
+			(at 134.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,6 +7582,12 @@
 			(uuid "c0c94dc9-f5c8-47b3-bbbe-3a06733f188e")
 		)
 		(instances
+			(project "monitor_solar_v2"
+				(path "/072cc20d-5bde-4a2b-847d-43a094e9a143"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "monitoreo_solar"
 				(path "/51bfdde5-5428-4bd6-badc-0ec3b16e1032"
 					(reference "#PWR01")

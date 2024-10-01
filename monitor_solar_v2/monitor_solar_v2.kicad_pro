@@ -115,7 +115,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.5,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -178,10 +178,7 @@
       ],
       "track_widths": [
         0.0,
-        0.6,
-        1.0,
         1.27,
-        1.5,
         1.524
       ],
       "tuning_pattern_settings": {
@@ -448,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "monitoreo_solar.kicad_pro",
+    "filename": "monitor_solar_v2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -483,7 +480,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "files/",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -549,7 +546,7 @@
       "group_symbols": true,
       "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -580,7 +577,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -592,7 +589,7 @@
   },
   "sheets": [
     [
-      "51bfdde5-5428-4bd6-badc-0ec3b16e1032",
+      "072cc20d-5bde-4a2b-847d-43a094e9a143",
       "Root"
     ]
   ],
