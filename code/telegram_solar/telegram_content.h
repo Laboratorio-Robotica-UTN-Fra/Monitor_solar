@@ -1,7 +1,6 @@
 #ifndef __TELEGRAM_CONTENT__
 #define __TELEGRAM_CONTENT__
 
-#include "Arduino.h"
 #include "monitor_functions.h"
 
 #define TIME_DAY(time) String(time / (1000 * 60 * 60 * 24))
@@ -10,8 +9,7 @@
 #define TIME_SEG(time) String((time / 1000) % 60)
 #define FORMAT_TIME(time) TIME_HS(time) + ":" + TIME_MIN(time) + ":" + TIME_SEG(time)
 
-#define BOT_TOKEN ""
-#define ID_CHAT ""
+
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 

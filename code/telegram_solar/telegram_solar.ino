@@ -23,7 +23,7 @@ int n_new_messages;
 void setup()
 {
     Serial.begin(115200);
-    delay(2000);
+    delay(3000);
     tiempoInicio = millis();
     Serial.println("Start Device");
     pinMode(GPIO_LED, OUTPUT);

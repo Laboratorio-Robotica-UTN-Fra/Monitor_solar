@@ -64,8 +64,8 @@ void solar_gpio_init(void) {
     
     pinMode(GPIO_RELAY_1, OUTPUT);
     pinMode(GPIO_RELAY_2, OUTPUT);
-    pinMode(GPIO_RELAY_1, HIGH);
-    pinMode(GPIO_RELAY_2, HIGH);
+    digitalWrite(GPIO_RELAY_1, LOW);
+    digitalWrite(GPIO_RELAY_2, LOW);
 }
 
 float get_voltage_value(int r1_value) {
