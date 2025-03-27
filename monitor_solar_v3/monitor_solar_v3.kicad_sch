@@ -4430,6 +4430,12 @@
 		(uuid "19f0cbb2-e300-47ad-8c3a-25c8fce90e20")
 	)
 	(junction
+		(at 260.35 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26bf1f86-e4e9-4b50-b48e-040a4146f9e4")
+	)
+	(junction
 		(at 22.86 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4730,6 +4736,16 @@
 			(type default)
 		)
 		(uuid "0a88481c-cca0-4dbf-b371-4da0b6e4ce26")
+	)
+	(wire
+		(pts
+			(xy 260.35 50.8) (xy 260.35 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c21c15d-0af8-48fd-902b-46ab38f77f32")
 	)
 	(wire
 		(pts
@@ -5393,16 +5409,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 60.96) (xy 234.95 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6040daf1-6d34-4cca-8931-36ac65d8f894")
-	)
-	(wire
-		(pts
 			(xy 48.26 81.28) (xy 50.8 81.28)
 		)
 		(stroke
@@ -5533,6 +5539,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 60.96) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ec876d-bd7e-4df6-a952-0966e33e63b6")
+	)
+	(wire
+		(pts
 			(xy 196.85 25.4) (xy 199.39 25.4)
 		)
 		(stroke
@@ -5650,6 +5666,16 @@
 			(type default)
 		)
 		(uuid "7a34a3bb-96f2-4e05-925b-e7036f8f7f21")
+	)
+	(wire
+		(pts
+			(xy 260.35 59.69) (xy 260.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d19d6d2-4956-414a-8232-9e6d01306d80")
 	)
 	(wire
 		(pts
@@ -6423,6 +6449,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 60.96) (xy 265.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03a9034-574e-4fce-8fdf-3f919083fa63")
+	)
+	(wire
+		(pts
 			(xy 22.86 45.72) (xy 25.4 45.72)
 		)
 		(stroke
@@ -6667,7 +6703,7 @@
 	)
 	(global_label "GPIO15"
 		(shape input)
-		(at 238.76 60.96 0)
+		(at 265.43 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6677,7 +6713,7 @@
 		)
 		(uuid "43313e8e-838f-4afc-90b4-be068e664e32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.6395 60.96 0)
+			(at 275.3095 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,6 +7990,72 @@
 			(project "monitor_solar_v3"
 				(path "/d4e2a079-328a-41d5-a5a0-7716b5883be5"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 260.35 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31fda1d7-3bf3-4e56-85f3-139198392932")
+		(property "Reference" "#PWR034"
+			(at 260.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "664f2131-7e7d-4646-8151-80a2b3dc17a0")
+		)
+		(instances
+			(project "monitor_solar_v3"
+				(path "/d4e2a079-328a-41d5-a5a0-7716b5883be5"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11595,6 +11697,76 @@
 			(project ""
 				(path "/d4e2a079-328a-41d5-a5a0-7716b5883be5"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 260.35 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c14c9c8b-8d56-406b-9472-972446800849")
+		(property "Reference" "R15"
+			(at 262.89 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 262.89 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 258.572 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81058f5f-c199-4bf1-a0d5-a034fc5b45a5")
+		)
+		(pin "2"
+			(uuid "43b72701-280b-4d40-b8ad-90c6a6a13897")
+		)
+		(instances
+			(project "monitor_solar_v3"
+				(path "/d4e2a079-328a-41d5-a5a0-7716b5883be5"
+					(reference "R15")
 					(unit 1)
 				)
 			)
