@@ -14,8 +14,8 @@
 #define GPIO_MUX_B  14
 #define GPIO_MUX_C  12
 
-#define GPIO_RELAY_1  5
-#define GPIO_RELAY_2  4
+#define GPIO_RELAY_1  10
+#define GPIO_RELAY_2  2
 
 #define GPIO_POT_CS   16
 #define GPIO_POT_STEP 5
@@ -29,17 +29,13 @@
 #define GPIO_MUX_B  14
 #define GPIO_MUX_C  12
 
-#define GPIO_RELAY_1  8
-#define GPIO_RELAY_2  6
-
-#define GPIO_POT_CS   10
-#define GPIO_POT_STEP 9
-#define GPIO_POT_DIR  7
+#define GPIO_RELAY_1  11
+#define GPIO_RELAY_2  7
 
 #endif
 
 #define ADC_RESOLUTION 1024
-#define ADC_VREF 3.2
+#define ADC_VREF 3.3
 #define ADC_BITS2VOLTS ADC_VREF / ADC_RESOLUTION
 // 2.2 * (1 + 3.3 / 1.5) / 102.2 = 0.068845 => ^-1 = 14.517
 #define ADC_V_GAIN 14.517
@@ -54,18 +50,23 @@ enum sensor_type{
     CURRENT
 };
 
+void select_sensor(enum sensor_type tipo);
+
 void solar_gpio_init(void) {
     pinMode(GPIO_MUX_A, OUTPUT);
     pinMode(GPIO_MUX_B, OUTPUT);
     pinMode(GPIO_MUX_C, OUTPUT);
+    select_sensor(VOLTAGE);
+    // #ifdef GPIO_POT_CS
     // pinMode(GPIO_POT_CS, OUTPUT);
+    // #endif
     // pinMode(GPIO_POT_STEP, OUTPUT);
     // pinMode(GPIO_POT_DIR, OUTPUT);
     
     pinMode(GPIO_RELAY_1, OUTPUT);
     pinMode(GPIO_RELAY_2, OUTPUT);
-    digitalWrite(GPIO_RELAY_1, LOW);
-    digitalWrite(GPIO_RELAY_2, LOW);
+    digitalWrite(GPIO_RELAY_1, HIGH);
+    digitalWrite(GPIO_RELAY_2, HIGH);
 }
 
 float get_voltage_value(int r1_value) {
@@ -74,7 +75,7 @@ float get_voltage_value(int r1_value) {
 }
 
 float get_current_value() {
-    int acs712_voltage = ADC_A_GAIN * analogRead(A0) * ADC_BITS2VOLTS;
+    float acs712_voltage = ADC_A_GAIN * analogRead(A0) * ADC_BITS2VOLTS;
     return acs712_voltage / ACS712_SENSITIVITY_INVERSE;
 }
 

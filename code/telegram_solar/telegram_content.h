@@ -10,6 +10,8 @@
 #define FORMAT_TIME(time) TIME_HS(time) + ":" + TIME_MIN(time) + ":" + TIME_SEG(time)
 
 
+#define BOT_TOKEN "7507194258:AAEeaBbAkaprIwi9e3m0kBtYrEEBwsa88Zs"
+#define ID_CHAT "7164870276"
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 
@@ -26,7 +28,10 @@ const String menu_content =
     "/relay2_on: Enciende la luz 2\n"
     "/relay2_off: Apaga la luz 2\n"
     "/voltage: Muestra el voltaje actual de la batería\n"
+    "/current: Muestra la corriente actual de la batería\n"
     "/raw_adc: Muestra el valor del ADC\n"
+    "/chat_id: Muestra el ID del chat\n"
+    
     "Recuerda que los comandos deben comenzar con '/'"
 ;
 
@@ -75,35 +80,48 @@ void manejarMensajesNuevos(int cantidadMensajes)
         }
 
         if (text == "/relay1_on") {
-            digitalWrite(GPIO_RELAY_1, HIGH);
+            digitalWrite(GPIO_RELAY_1, LOW);
             bot.sendMessage(chat_id, "🔆 Luz 1 encendida", "");
             return;
         }
         if (text == "/relay1_off") {
-            digitalWrite(GPIO_RELAY_1, LOW);
+            digitalWrite(GPIO_RELAY_1, HIGH);
             bot.sendMessage(chat_id, "🌑 Luz 1 apagada", "");
             return;
         }
         if (text == "/relay2_on") {
-            digitalWrite(GPIO_RELAY_2, HIGH);
+            digitalWrite(GPIO_RELAY_2, LOW);
             bot.sendMessage(chat_id, "🔆 Luz 2 encendida", "");
             return;
         }
         if (text == "/relay2_off") {
-            digitalWrite(GPIO_RELAY_2, LOW);
+            digitalWrite(GPIO_RELAY_2, HIGH);
             bot.sendMessage(chat_id, "🌑 Luz 2 apagada", "");
             return;
         }
 
         if (text == "/voltage") {
             select_sensor(VOLTAGE);
-            bot.sendMessage(chat_id, "🔋 Voltaje: " + String(get_voltage_value(3300)) + "V", "");
+            String msg = "🔋 Voltaje: " + String(get_voltage_value(3300)) + "V\n";
+            msg += "Voltaje IN: " + String(analogRead(A0) * ADC_BITS2VOLTS) + "V\n";
+            bot.sendMessage(chat_id, msg, "");
+            return;
+        }
+        if (text == "/current") {
+            select_sensor(CURRENT);
+            String msg = "⚡ Corriente: " + String(get_current_value()) + "A\n";
+            msg += "Voltaje IN: " + String(analogRead(A0) * ADC_BITS2VOLTS) + "V\n";
+            bot.sendMessage(chat_id, msg, "");
             return;
         }
         if (text == "/raw_adc") {
             select_sensor(VOLTAGE);
             int value = analogRead(A0);
             bot.sendMessage(chat_id, "🔋 Valor ADC: " + String(value) + "\nVoltage IN: " + String(value * ADC_BITS2VOLTS), "");
+            return;
+        }
+        if (text == "/chat_id") {
+            bot.sendMessage(chat_id, "💬 ID del chat: " + chat_id, "");
             return;
         }
 
