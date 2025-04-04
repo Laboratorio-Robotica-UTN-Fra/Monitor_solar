@@ -4,20 +4,15 @@
 #include "monitor_functions.h"
 #include "telegram_content.h"
 
-#define WIFI_SSID "Telecentro-996b"
-#define WIFI_PASSWORD "ZNYUW3MDZDTM"
 
 #define GPIO_LED    2
-
-
-void conectarWiFi();
 
 unsigned long tiempoInicio;
 unsigned long ultimaVezMensaje = 0;
 unsigned long ultimaVezParpadeo = 0;
 
-unsigned long intervaloMensajes = 500;
-unsigned long intervaloParpadeo = 250;
+unsigned long intervaloMensajes = 2000;
+unsigned long intervaloParpadeo = 10000;
 int n_new_messages;
 
 void setup()
@@ -45,6 +40,8 @@ void loop()
         if (millis() - ultimaVezParpadeo > intervaloParpadeo)
         {
             digitalWrite(GPIO_LED, !digitalRead(GPIO_LED));
+            PanelData panel_data = get_panel_data(ultimaVezParpadeo);
+            sendDataToGoogleSheets(panel_data);
             ultimaVezParpadeo = millis();
         }
         if (millis() - ultimaVezMensaje > intervaloMensajes)
@@ -64,33 +61,3 @@ void loop()
     }
 
 }
-
-void conectarWiFi()
-{
-    Serial.println("Conectando a WiFi...");
-    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
-
-    int intentos = 0;
-    while (WiFi.status() != WL_CONNECTED && intentos < 20)
-    {
-        delay(500);
-        Serial.print(".");
-        intentos++;
-    }
-
-    if (WiFi.status() == WL_CONNECTED)
-    {
-        Serial.println("\nWiFi conectado");
-        Serial.print("Dirección IP: ");
-        Serial.println(WiFi.localIP());
-        secured_client.setInsecure();
-        delay(1000);
-        bot.sendMessage(ID_CHAT, "✅ Conectado a la red WiFi. Usa /ayuda para las funciones.", "");
-    }
-    else
-    {
-        Serial.println("\nError al conectar a WiFi.");
-        bot.sendMessage(ID_CHAT, "❌ Error al conectar a la red WiFi.", "");
-    }
-}
-

@@ -2,6 +2,8 @@
 #define __MONITOR_FUNCTIONS__
 
 #include "Arduino.h"
+#include <NTPClient.h>
+#include <WiFiUdp.h>
 
 #define ESP8266_BOARD 1
 #define ESP12_F_BOARD 2
@@ -49,9 +51,21 @@
 // 30A / 2V = 15A/V
 #define ACS712_SENSITIVITY_INVERSE 15
 
+
+WiFiUDP ntpUDP;
+NTPClient timeClient(ntpUDP, "pool.ntp.org", -3 * 3600, 60000);
+
 enum sensor_type{
     VOLTAGE,
     CURRENT
+};
+
+struct PanelData {
+    float voltage;
+    float current;
+    float power;
+    float energy;
+    String date_time;
 };
 
 void solar_gpio_init(void) {
@@ -94,4 +108,27 @@ void select_sensor(enum sensor_type tipo) {
     }
     delay(10);
 }
+
+void print_panel_data(PanelData panel_data) {
+    Serial.println("Voltage: " + String(panel_data.voltage) + "V");
+    Serial.println("Current: " + String(panel_data.current) + "A");
+    Serial.println("Power: " + String(panel_data.power) + "W");
+    Serial.println("Energy: " + String(panel_data.energy) + "kWh");
+    Serial.println("Date/Time: " + panel_data.date_time);
+}
+
+PanelData get_panel_data(unsigned long last_reading_time) {
+    PanelData panel_data;
+    panel_data.voltage = get_voltage_value(3300);
+    panel_data.current = get_current_value();
+    panel_data.power = panel_data.voltage * panel_data.current;
+    panel_data.energy += panel_data.power * (millis() - last_reading_time) / 3600000.0; // kWh
+    timeClient.update();
+    panel_data.date_time = timeClient.getFormattedTime();
+    
+    print_panel_data(panel_data);
+
+    return panel_data;
+}
+
 #endif
