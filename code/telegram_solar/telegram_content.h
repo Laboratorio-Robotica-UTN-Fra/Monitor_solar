@@ -2,6 +2,7 @@
 #define __TELEGRAM_CONTENT__
 
 #include "monitor_functions.h"
+#include <ArduinoJson.h>
 
 #define TIME_DAY(time) String(time / (1000 * 60 * 60 * 24))
 #define TIME_HS(time) String(time / (1000 * 3600))
@@ -9,9 +10,15 @@
 #define TIME_SEG(time) String((time / 1000) % 60)
 #define FORMAT_TIME(time) TIME_HS(time) + ":" + TIME_MIN(time) + ":" + TIME_SEG(time)
 
+// #define WIFI_SSID "Telecentro-996b"
+// #define WIFI_PASSWORD "ZNYUW3MDZDTM"
+#define WIFI_SSID "BernarD"
+#define WIFI_PASSWORD "qwerty123"
+// const char* googleScriptUrl = "https://script.google.com/macros/s/your_script_id/exec";
+const char* googleScriptUrl = "https://script.google.com/macros/s/AKfycbxI2-rlQ5esazcyoN70Up2YS21KZKEVi6QMsyex8zhEwgr7dT6TWh3K55hNWBykBPevXQ/exec";
 
-#define BOT_TOKEN "7507194258:AAEeaBbAkaprIwi9e3m0kBtYrEEBwsa88Zs"
-#define ID_CHAT "7164870276"
+#define BOT_TOKEN ""
+#define ID_CHAT ""
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 
@@ -127,6 +134,76 @@ void manejarMensajesNuevos(int cantidadMensajes)
 
 
         bot.sendMessage(chat_id, "⚠️ Comando incorrecto. Usa /ayuda para ver los comandos disponibles.", "");
+    }
+}
+
+void sendDataToGoogleSheets(PanelData data) {
+    if (WiFi.status() != WL_CONNECTED) {
+        Serial.println("WiFi not connected!");
+        return;
+    }
+
+    // secured_client.setInsecure(); // Ignore SSL certificate check
+
+    if (!secured_client.connect("script.google.com", 443)) {
+        Serial.println("Connection to Google failed");
+        return;
+    }
+
+    StaticJsonDocument<256> jsonDoc;
+    jsonDoc["voltage"] = data.voltage;
+    jsonDoc["current"] = data.current;
+    jsonDoc["power"] = data.power;
+    jsonDoc["energy"] = data.energy;
+    jsonDoc["date_time"] = data.date_time;
+
+    String jsonString;
+    serializeJson(jsonDoc, jsonString);
+
+    String postRequest = String("POST ") + googleScriptUrl + " HTTP/1.1\r\n" +
+                         "Host: script.google.com\r\n" +
+                         "Content-Type: application/json\r\n" +
+                         "Content-Length: " + jsonString.length() + "\r\n\r\n" +
+                         jsonString;
+
+    secured_client.print(postRequest);
+
+    delay(500);
+
+    while (secured_client.available()) {
+        String line = secured_client.readStringUntil('\r');
+        Serial.print(line);
+    }
+
+    secured_client.stop();
+}
+
+void conectarWiFi()
+{
+    Serial.println("Conectando a WiFi...");
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+
+    int intentos = 0;
+    while (WiFi.status() != WL_CONNECTED && intentos < 20)
+    {
+        delay(500);
+        Serial.print(".");
+        intentos++;
+    }
+
+    if (WiFi.status() == WL_CONNECTED)
+    {
+        Serial.println("\nWiFi conectado");
+        Serial.print("Dirección IP: ");
+        Serial.println(WiFi.localIP());
+        secured_client.setInsecure();
+        // delay(1000);
+        bot.sendMessage(ID_CHAT, "✅ Conectado a la red WiFi. Usa /ayuda para las funciones.", "");
+    }
+    else
+    {
+        Serial.println("\nError al conectar a WiFi.");
+        bot.sendMessage(ID_CHAT, "❌ Error al conectar a la red WiFi.", "");
     }
 }
 
