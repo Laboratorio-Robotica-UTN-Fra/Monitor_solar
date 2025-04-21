@@ -37,12 +37,12 @@
 #endif
 
 #define ADC_RESOLUTION 1024
-#define ADC_VREF 3.3
-#define ADC_BITS2VOLTS ADC_VREF / ADC_RESOLUTION
+#define ADC_VREF 1.0f
+#define ADC_BITS2VOLTS ((float) (ADC_VREF / ADC_RESOLUTION))
 // 2.2 * (1 + 3.3 / 1.5) / 102.2 = 0.068845 => ^-1 = 14.517
-#define ADC_V_GAIN 14.517
+#define ADC_V_GAIN 100680.0 / 680
 // Resistencias = ((33k + 20k) / 33k)
-#define ADC_A_GAIN 1.606
+#define ADC_A_GAIN 2.78f
 // Inversa de la pendiente sensor ACS712
 // 30A / 2V = 15A/V
 #define ACS712_SENSITIVITY_INVERSE 15
@@ -83,13 +83,13 @@ void solar_gpio_init(void) {
 }
 
 float get_voltage_value(int r1_value) {
-    float gain = 1022 / (22 * (1 + r1_value / 1500));
+    float gain =  ADC_V_GAIN / (1 + r1_value / 1500.0);
     return gain * analogRead(A0) * ADC_BITS2VOLTS;
 }
 
 float get_current_value() {
-    float acs712_voltage = ADC_A_GAIN * analogRead(A0) * ADC_BITS2VOLTS;
-    return acs712_voltage / ACS712_SENSITIVITY_INVERSE;
+    float adc_i_volts = ADC_A_GAIN * analogRead(A0) * ADC_BITS2VOLTS;
+    return adc_i_volts; // - 0.878
 }
 
 
@@ -106,7 +106,7 @@ void select_sensor(enum sensor_type tipo) {
             digitalWrite(GPIO_MUX_C, LOW);
             break;
     }
-    delay(10);
+    delay(250);
 }
 
 void print_panel_data(PanelData panel_data) {

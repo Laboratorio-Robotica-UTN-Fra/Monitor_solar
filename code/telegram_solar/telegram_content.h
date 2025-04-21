@@ -101,20 +101,21 @@ void manejarMensajesNuevos(int cantidadMensajes)
 
         if (text == "/voltage") {
             select_sensor(VOLTAGE);
+            int value = analogRead(A0);
             String msg = "🔋 Voltaje: " + String(get_voltage_value(3300)) + "V\n";
-            msg += "Voltaje IN: " + String(analogRead(A0) * ADC_BITS2VOLTS) + "V\n";
+            msg += "Valor ADC: " + String(value) + "\nVoltaje IN: " + String(value * ADC_BITS2VOLTS) + "V\n";
             bot.sendMessage(chat_id, msg, "");
             return;
         }
         if (text == "/current") {
             select_sensor(CURRENT);
+            int value = analogRead(A0);
             String msg = "⚡ Corriente: " + String(get_current_value()) + "A\n";
-            msg += "Voltaje IN: " + String(analogRead(A0) * ADC_BITS2VOLTS) + "V\n";
+            msg += "Valor ADC: " + String(value) + "\nVoltaje IN: " + String(value * ADC_BITS2VOLTS) + "V\n";
             bot.sendMessage(chat_id, msg, "");
             return;
         }
         if (text == "/raw_adc") {
-            select_sensor(VOLTAGE);
             int value = analogRead(A0);
             bot.sendMessage(chat_id, "🔋 Valor ADC: " + String(value) + "\nVoltage IN: " + String(value * ADC_BITS2VOLTS), "");
             return;
