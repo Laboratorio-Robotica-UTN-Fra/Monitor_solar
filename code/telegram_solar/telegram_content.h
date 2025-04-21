@@ -2,6 +2,7 @@
 #define __TELEGRAM_CONTENT__
 
 #include "monitor_functions.h"
+#include "credentials.h"
 #include <ArduinoJson.h>
 
 #define TIME_DAY(time) String(time / (1000 * 60 * 60 * 24))
@@ -10,15 +11,6 @@
 #define TIME_SEG(time) String((time / 1000) % 60)
 #define FORMAT_TIME(time) TIME_HS(time) + ":" + TIME_MIN(time) + ":" + TIME_SEG(time)
 
-// #define WIFI_SSID "Telecentro-996b"
-// #define WIFI_PASSWORD "ZNYUW3MDZDTM"
-#define WIFI_SSID "BernarD"
-#define WIFI_PASSWORD "qwerty123"
-// const char* googleScriptUrl = "https://script.google.com/macros/s/your_script_id/exec";
-const char* googleScriptUrl = "https://script.google.com/macros/s/AKfycbxI2-rlQ5esazcyoN70Up2YS21KZKEVi6QMsyex8zhEwgr7dT6TWh3K55hNWBykBPevXQ/exec";
-
-#define BOT_TOKEN ""
-#define ID_CHAT ""
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 
