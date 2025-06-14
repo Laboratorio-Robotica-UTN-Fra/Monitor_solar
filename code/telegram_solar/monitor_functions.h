@@ -5,13 +5,6 @@
 #include <NTPClient.h>
 #include <WiFiUdp.h>
 
-#define ESP8266_BOARD 1
-#define ESP12_F_BOARD 2
-
-#define BOARD_USE ESP8266_BOARD
-
-#if BOARD_USE == ESP8266_BOARD
-
 #define GPIO_MUX_A  13
 #define GPIO_MUX_B  14
 #define GPIO_MUX_C  12
@@ -19,33 +12,21 @@
 #define GPIO_RELAY_1  10
 #define GPIO_RELAY_2  2
 
-#define GPIO_POT_CS   16
-#define GPIO_POT_STEP 5
-#define GPIO_POT_DIR  4
-
-#endif
-
-#if BOARD_USE == ESP12_F_BOARD
-
-#define GPIO_MUX_A  13
-#define GPIO_MUX_B  14
-#define GPIO_MUX_C  12
-
-#define GPIO_RELAY_1  11
-#define GPIO_RELAY_2  7
-
-#endif
-
 #define ADC_RESOLUTION 1024
 #define ADC_VREF 1.0f
 #define ADC_BITS2VOLTS ((float) (ADC_VREF / ADC_RESOLUTION))
+
+
 // 2.2 * (1 + 3.3 / 1.5) / 102.2 = 0.068845 => ^-1 = 14.517
 #define ADC_V_GAIN 100680.0 / 680
+#define PANEL_V_OFFSET 0.6f
 // Resistencias = ((33k + 20k) / 33k)
-#define ADC_A_GAIN 2.78f
 // Inversa de la pendiente sensor ACS712
-// 30A / 2V = 15A/V
-#define ACS712_SENSITIVITY_INVERSE 15
+// 52k // 100k => 0.342 ~ 0.35
+// 0A -> 2.52v -> 0.88v     | 0 v
+// 30A -> 0.55v -> 0.19v    | 0.69 v
+#define ACS712_OFFSET_COUNTS 934
+#define ACS712_SENSITIVITY 42.47f 
 
 
 WiFiUDP ntpUDP;
@@ -70,11 +51,6 @@ void solar_gpio_init(void) {
     pinMode(GPIO_MUX_B, OUTPUT);
     pinMode(GPIO_MUX_C, OUTPUT);
     select_sensor(VOLTAGE);
-    // #ifdef GPIO_POT_CS
-    // pinMode(GPIO_POT_CS, OUTPUT);
-    // #endif
-    // pinMode(GPIO_POT_STEP, OUTPUT);
-    // pinMode(GPIO_POT_DIR, OUTPUT);
     
     pinMode(GPIO_RELAY_1, OUTPUT);
     pinMode(GPIO_RELAY_2, OUTPUT);
@@ -84,11 +60,11 @@ void solar_gpio_init(void) {
 
 float get_voltage_value(int r1_value) {
     float gain =  ADC_V_GAIN / (1 + r1_value / 1500.0);
-    return gain * analogRead(A0) * ADC_BITS2VOLTS;
+    return gain * analogRead(A0) * ADC_BITS2VOLTS - PANEL_V_OFFSET;
 }
 
 float get_current_value() {
-    float adc_i_volts = ADC_A_GAIN * analogRead(A0) * ADC_BITS2VOLTS;
+    float adc_i_volts =  ACS712_SENSITIVITY * (ACS712_OFFSET_COUNTS - analogRead(A0)) * ADC_BITS2VOLTS;
     return adc_i_volts; // - 0.878
 }
 
@@ -96,17 +72,17 @@ float get_current_value() {
 void select_sensor(enum sensor_type tipo) {
     switch (tipo) {
         case VOLTAGE:
-            digitalWrite(GPIO_MUX_A, HIGH);
-            digitalWrite(GPIO_MUX_B, LOW);
+            digitalWrite(GPIO_MUX_A, LOW);
+            digitalWrite(GPIO_MUX_B, HIGH);
             digitalWrite(GPIO_MUX_C, LOW);
             break;
         case CURRENT:
-            digitalWrite(GPIO_MUX_A, LOW);
-            digitalWrite(GPIO_MUX_B, LOW);
+            digitalWrite(GPIO_MUX_A, HIGH);
+            digitalWrite(GPIO_MUX_B, HIGH);
             digitalWrite(GPIO_MUX_C, LOW);
             break;
     }
-    delay(250);
+    delay(50);
 }
 
 void print_panel_data(PanelData panel_data) {

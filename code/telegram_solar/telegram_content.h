@@ -50,15 +50,6 @@ void manejarMensajesNuevos(int cantidadMensajes)
             estado += "🔋 Voltaje: " + String(get_voltage_value(3300)) + "V\n";
             select_sensor(CURRENT);
             estado += "⚡ Corriente: " + String(get_current_value()) + "A\n";
-            // for (int j = 0; j < numLeds; j++)
-            // {
-            //     led = leds[j];
-            //     estado += "Luz " + String(j + 1) + ": " + (led.estado ? "Encendida" : "Apagada");
-            //     if (led.t_prog > 0)
-            //         estado += " (Apagado en " + FORMAT_TIME(led.t_prog - millis()) + ")";
-
-            //     estado += "\n";
-            // }
             bot.sendMessage(chat_id, estado, "");
             return;
         }
@@ -125,7 +116,6 @@ void manejarMensajesNuevos(int cantidadMensajes)
             return;
         }
 
-
         bot.sendMessage(chat_id, "⚠️ Comando incorrecto. Usa /ayuda para ver los comandos disponibles.", "");
     }
 }
@@ -161,7 +151,7 @@ void sendDataToGoogleSheets(PanelData data) {
 
     secured_client.print(postRequest);
 
-    delay(500);
+    delay(200);
 
     while (secured_client.available()) {
         String line = secured_client.readStringUntil('\r');
